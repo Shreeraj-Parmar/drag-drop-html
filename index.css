@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #0b0423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left,
+.right {
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  border: 2px dashed #fff;
+}
+.list {
+  background: #e91e63;
+  padding: 10px;
+  text-align: center;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
+.hold {
+  border: 2px solid black;
+}
+.hide {
+  display: none;
+}
